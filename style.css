@@ -1,0 +1,268 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #DCE1DE;
+}
+.nombre{
+    width: 100%;
+    height: 300px;
+    background: #49A078;
+    transform: skewY(-10deg);
+}
+.nombre .contenido{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 15%;
+}
+.nombre .foto_perfil{
+    position: absolute;
+    top: 25%;
+    right: 13%;
+    width: 180px;
+    height: 200px;
+    transform: skewY(10deg);
+    overflow: hidden;
+}
+.nombre .foto_perfil img{
+    width: 180px;
+    height: 200px;
+}
+.nombre .contenido .nom_comp{
+    color: #230903  ;
+    font-family: 'Roboto Serif', serif;
+    font-weight: bolder;
+    font-size: 45px;
+    transform: skewY(10deg);
+    margin-top: 15%;
+    margin-bottom: 0%;
+}
+.nombre .contenido .años{
+    color: #230903  ;
+    font-family: 'Roboto Serif', serif;
+    font-size: 30px;
+    transform: skewY(10deg);
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.nombre .contenido .ing{
+    color: #230903  ;
+    font-family: 'Roboto Serif', serif;
+    font-size: 30px;
+    transform: skewY(10deg);
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.informacion{
+    width: 95%;
+    height: auto;
+    background: #49A078;
+    margin: 10% auto;
+    padding: 15px;
+    border-radius: 20px;
+}
+.informacion .titulo{
+    color: #230903;
+    font-family: 'Roboto Serif', serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 4px #230903 solid;
+} 
+.informacion .cc{
+    color: #230903;
+    font-family: 'Roboto Serif', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 15px;
+}
+.informacion .num_cc{
+    color: #FFFCF7;
+    font-family: 'Roboto Serif', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.informacion .vive{
+    color: #230903;
+    font-family: 'Roboto Serif', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 15px;
+}
+.informacion .ciudad{
+    color: #FFFCF7;
+    font-family: 'Roboto Serif', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.informacion .direc{
+    color: #230903;
+    font-family: 'Roboto Serif', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 15px;
+}
+.informacion .casa{
+    color: #FFFCF7;
+    font-family: 'Roboto Serif', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.informacion .correo{
+    color: #230903;
+    font-family: 'Roboto Serif', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 15px;
+}
+.informacion .email{
+    color: #FFFCF7;
+    font-family: 'Roboto Serif', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.informacion .cel{
+    color: #230903;
+    font-family: 'Roboto Serif', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 15px;
+}
+.informacion .num_cel{
+    color: #FFFCF7;
+    font-family: 'Roboto Serif', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.estudios{
+    width: 95%;
+    height: auto;
+    background: #49A078;
+    margin: 10% auto;
+    padding: 15px;
+    border-radius: 20px;
+}
+.estudios .titulo{
+    color: #230903;
+    font-family: 'Roboto Serif', serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 4px #230903 solid;
+} 
+.estudios .primaria{
+    color: #230903;
+    font-family: 'Roboto Serif', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 15px;
+}
+.estudios .escuela{
+    color: #FFFCF7;
+    font-family: 'Roboto Serif', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.estudios .bachiller{
+    color: #230903;
+    font-family: 'Roboto Serif', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 15px;
+}
+.estudios .colegio{
+    color: #FFFCF7;
+    font-family: 'Roboto Serif', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.estudios .universidad{
+    color: #230903;
+    font-family: 'Roboto Serif', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 15px;
+}
+.estudios .USCO{
+    color: #FFFCF7;
+    font-family: 'Roboto Serif', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.trabajos{
+    width: 95%;
+    height: auto;
+    background: #49A078;
+    margin: 10% auto;
+    padding: 15px;
+    border-radius: 20px;
+}
+.trabajos .titulo{
+    color: #230903;
+    font-family: 'Roboto Serif', serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 4px #230903 solid;
+} 
+.trabajos .empresa{
+    color: #230903;
+    font-family: 'Roboto Serif', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 15px;
+}
+.trabajos .r40{
+    color: #FFFCF7;
+    font-family: 'Roboto Serif', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.trabajos .labor{
+    color: #230903;
+    font-family: 'Roboto Serif', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 15px;
+}
+.trabajos .curso{
+    color: #FFFCF7;
+    font-family: 'Roboto Serif', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.trabajos .tiempo{
+    color: #230903;
+    font-family: 'Roboto Serif', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 15px;
+}
+.trabajos .tiempo_trabajo{
+    color: #FFFCF7;
+    font-family: 'Roboto Serif', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
